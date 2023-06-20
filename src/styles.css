@@ -1,7 +1,18 @@
+/* fonts used
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+:root{
+    --one: 'Josefin Sans', sans-serif;
+    --two: 'Poppins', sans-serif;
+    --space: 83.5%;
+}
+
 *{
     padding: 0;
     border: 0;
     margin: 0;
+    font-family: var(--one);
 }
 
 html{
@@ -12,7 +23,7 @@ html{
 .greyBackGround{
     background-color: #f3f3f3;
     width: 100%;
-    height: 200vh;
+    height: 1000vh;
 }
 .flex{
     display: flex;
@@ -26,6 +37,8 @@ html{
     height: 100%;
 }
 
+
+/* ============================================================== */
 /* ========== the navigation bar that is not sticky */
 #navbar{
     height: 4rem;
@@ -33,12 +46,13 @@ html{
     background-color: white;
     display: flex;
     justify-content: flex-start;
+    border-bottom: 4px solid #f3f3f3;
 }
 
 .navbar1{
     list-style: none;
-    background-color: red;
-    width: 50%;
+    /* background-color: red; */
+    width: 48%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -48,7 +62,7 @@ html{
 .navbarElements{
     width: 3rem;
     height: 3rem;
-    background-color: gray;
+    /* background-color: gray; */
     flex-grow: 0;
     
 }
@@ -63,7 +77,7 @@ html{
     display: flex;
     flex-grow: 0;
     width: fit-content;
-    background-color: yellow;
+    /* background-color: yellow; */
     
 
 }
@@ -71,5 +85,113 @@ html{
 .linking{
     text-decoration: none;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-family: var(--one);
+    font-weight: bolder;
+}
+
+/* ================================================================ */
+/* the navbar that is translucent and sticky */
+#navbar2{
+    height: 3.5rem;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-start;
+    position: sticky;
+    top:0;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: +2;
+}
+
+.nav2{
+    width: 20.5%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav2Elements{
+    list-style: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+
+}
+.ora{
+    color: orangered;
+}
+
+
+/* ============================================================= */
+/* the hero section */
+
+.spaces{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heroSection{
+    background-image: url(../assets/img/first.jpg);
+    height: 90vh;                            /* fixed value here*/
+    width: 83.5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heroText{
+    position: absolute;
+    font-size: 6.5rem;
+    color: #fd5948;
+    top:53.5%
+}
+/* ============================================================= */
+/* 2nd part the part after the hero section (font size: 1.875rem)*/
+#part2{
+    width: 49%;
+    height: 28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 1rem;
+}
+.link2{
+    text-decoration: none;
+    color: #0000ff;
+}
+.bigger{
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+.smaller{
+    font-size:1.1rem ;
+    line-height: 1.5rem;
+}
+/* ============================================================== */
+/* 3rd part of after the hero section */
+
+
+
+
+
+
+
+
+
+
+
+/*  the text selector color for this website */
+::-moz-selection{
+    color: white;
+    background-color: #0000ff;
+}
+
+::selection{
+    color: white;
+    background-color: #0000ff;
 }
