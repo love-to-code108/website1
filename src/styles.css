@@ -178,6 +178,26 @@ html{
 /* ============================================================== */
 /* 3rd part of after the hero section */
 
+#shapes{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#yellowBox{
+    height: 100%;
+    width: 58%;
+    background-color: #fbffa7;
+}
+#smallPic{
+    background-image: url(../assets/img/);
+}
+
+
+
 
 
 
