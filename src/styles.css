@@ -117,6 +117,9 @@ html{
     font-weight: 600;
 
 }
+.nav2Elements:hover{
+    cursor: pointer;
+}
 .ora{
     color: orangered;
 }
