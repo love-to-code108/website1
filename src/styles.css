@@ -5,6 +5,7 @@ font-family: 'Poppins', sans-serif; */
 :root{
     --one: 'Josefin Sans', sans-serif;
     --two: 'Poppins', sans-serif;
+    --space: 
 }
 
 *{
@@ -99,7 +100,7 @@ html{
     justify-content: flex-start;
     position: sticky;
     top:0;
-    /* background-color: rgba(red, green, blue, 1); */
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .nav2{
@@ -119,6 +120,29 @@ html{
     color: orangered;
 }
 
+
+/* ============================================================= */
+/* the hero section */
+
+.spaces{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heroSection{
+    background-image: url(../assets/img/first.jpg);
+    height: 50%;
+    width: 83.5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* padding-left: 2rem; */
+    
+}
 
 
 
