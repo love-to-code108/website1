@@ -1,3 +1,12 @@
+/* fonts used
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+:root{
+    --one: 'Josefin Sans', sans-serif;
+    --two: 'Poppins', sans-serif;
+}
+
 *{
     padding: 0;
     border: 0;
@@ -33,12 +42,13 @@ html{
     background-color: white;
     display: flex;
     justify-content: flex-start;
+    border-bottom: 4px solid #f3f3f3;
 }
 
 .navbar1{
     list-style: none;
-    background-color: red;
-    width: 50%;
+    /* background-color: red; */
+    width: 48%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -48,7 +58,7 @@ html{
 .navbarElements{
     width: 3rem;
     height: 3rem;
-    background-color: gray;
+    /* background-color: gray; */
     flex-grow: 0;
     
 }
@@ -63,7 +73,7 @@ html{
     display: flex;
     flex-grow: 0;
     width: fit-content;
-    background-color: yellow;
+    /* background-color: yellow; */
     
 
 }
@@ -71,5 +81,36 @@ html{
 .linking{
     text-decoration: none;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-family: var(--one);
+    font-weight: bolder;
+}
+
+/* the navbar that is translucent and sticky */
+#navbar2{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  the text selector color for this website */
+::-moz-selection{
+    color: white;
+    background-color: #0000ff;
+}
+
+::selection{
+    color: white;
+    background-color: #0000ff;
 }
