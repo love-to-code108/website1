@@ -70,6 +70,9 @@ html{
 .imgContain{
     height: inherit; 
 }
+.imgContain:hover{
+    cursor: pointer;
+}
 
 
 
@@ -88,6 +91,33 @@ html{
     font-size: 1rem;
     font-family: var(--one);
     font-weight: bolder;
+}
+
+
+/* ================================================================= */
+/* second half of the navbar */
+
+.navbar2{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 22%;
+    justify-content: space-evenly;
+    margin-left: 30%;
+}
+
+.element1{
+    color: #0000ff;
+    font-weight: 600;
+}
+.element1:hover{
+    cursor: pointer;
+}
+.element2{
+    font-weight: 600;
+}
+.element2:hover{
+    cursor: pointer;
 }
 
 /* ================================================================ */
