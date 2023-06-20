@@ -70,6 +70,9 @@ html{
 .imgContain{
     height: inherit; 
 }
+.imgContain:hover{
+    cursor: pointer;
+}
 
 
 
@@ -88,6 +91,33 @@ html{
     font-size: 1rem;
     font-family: var(--one);
     font-weight: bolder;
+}
+
+
+/* ================================================================= */
+/* second half of the navbar */
+
+.navbar2{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 22%;
+    justify-content: space-evenly;
+    margin-left: 30%;
+}
+
+.element1{
+    color: #0000ff;
+    font-weight: 600;
+}
+.element1:hover{
+    cursor: pointer;
+}
+.element2{
+    font-weight: 600;
+}
+.element2:hover{
+    cursor: pointer;
 }
 
 /* ================================================================ */
@@ -116,6 +146,9 @@ html{
     font-size: 0.8rem;
     font-weight: 600;
 
+}
+.nav2Elements:hover{
+    cursor: pointer;
 }
 .ora{
     color: orangered;
@@ -174,6 +207,70 @@ html{
 }
 /* ============================================================== */
 /* 3rd part of after the hero section */
+
+#shapes{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    bottom: 2.4rem;
+}
+
+#yellowBox{
+    height: 100%;
+    width: 58%;
+    background-color: #fbffa7;
+}
+#smallPic{
+    position: absolute;
+    width: 35%;
+    height: 34%;
+    background-image: url(../assets/img/2nd\(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 5rem;
+    
+}
+#bigPic{
+    position: absolute;
+    width: 45%;
+    height: 70%;
+    background-image: url(../assets/img/3rd2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 5rem;
+
+}
+
+
+/* ================================================================ */
+/* the fourth part from the hero section */
+
+#part4{
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    width: 50%;
+    position: relative;
+    top: 5.4rem;
+    
+}
+.part41{
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin-bottom: 1.5rem;
+    
+}
+.part42{
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+
+}
+
+
 
 
 
