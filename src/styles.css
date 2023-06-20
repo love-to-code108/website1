@@ -11,6 +11,7 @@ font-family: 'Poppins', sans-serif; */
     padding: 0;
     border: 0;
     margin: 0;
+    font-family: var(--one);
 }
 
 html{
@@ -35,6 +36,8 @@ html{
     height: 100%;
 }
 
+
+/* ============================================================== */
 /* ========== the navigation bar that is not sticky */
 #navbar{
     height: 4rem;
@@ -86,9 +89,34 @@ html{
     font-weight: bolder;
 }
 
+/* ================================================================ */
 /* the navbar that is translucent and sticky */
 #navbar2{
-    
+    height: 3.5rem;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-start;
+    position: sticky;
+    top:0;
+    /* background-color: rgba(red, green, blue, 1); */
+}
+
+.nav2{
+    width: 20.5%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav2Elements{
+    list-style: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+
+}
+.ora{
+    color: orangered;
 }
 
 
