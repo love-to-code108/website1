@@ -271,6 +271,53 @@ html{
 }
 
 
+/*====================================================================  */
+/* the fifth part from the hero section */
+
+#part5{
+    width: 50%;
+    height: 25rem;
+}
+
+
+#YTvideo{
+    
+}
+#btn{
+    position: relative;
+    top: 40rem;
+}
+.vidEdit{
+    width: 100%;
+    height: inherit;
+    position: relative;
+    top: 12rem;
+}
+.vidEdit:hover{
+    cursor: pointer;
+}
+.vidEdit2{
+    width: 100%;
+    height: inherit;
+    position: relative;
+    bottom: 13.1rem;
+}
+.vidEdit2:hover{
+    cursor: pointer;
+}
+
+.playBtn{
+    width: 6.2%;
+    height: auto;
+    z-index: 1;
+    position: relative;
+    bottom: 2.9rem;
+}
+.playBtn:hover{
+    cursor: pointer;
+}
+
+/* ============================================================ */
 
 
 
