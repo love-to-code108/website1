@@ -271,6 +271,29 @@ html{
 }
 
 
+/*====================================================================  */
+/* the fifth part from the hero section */
+
+#part5{
+    width: 50%;
+    height: 25rem;
+}
+
+
+#YTvideo{
+    
+}
+#btn{
+    position: relative;
+    top: 40rem;
+}
+.vidEdit{
+    width: 100%;
+    height: inherit;
+    position: relative;
+    top: 12rem;
+}
+
 
 
 
