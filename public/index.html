@@ -93,13 +93,16 @@
             <!-- ============================================== -->
             <!-- the fifth part from the hero section -->
             <div id="part5">
-                <video class="vidEdit" src="../assets/video/myVideo.mp4">
+                <video onclick="playPause()" id="video1" class="vidEdit" src="../assets/video/myVideo.mp4">
+                    <source src="../assets/video/myVideo.mp4" type="video/mp4">
+                    your browser does not support this video format;
                 </video>
+                <img id="hidden" class="vidEdit2" onclick="hide()" src="../assets/img/abletonVideo.png" alt="">
             </div>
-            <button id="btn" onclick="startVideo()" type="button">PLAY</button>
+            <img id="hiddenBtn" class="playBtn" onclick="hide()" src="../assets/img/playButton.png" alt="">
+            <div></div>
         </div>
     </div>
-    <script src="https://www.youtube.com/iframe_api"></script>
     <script src="../src/index.js"></script>
 </body>
 
