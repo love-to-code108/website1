@@ -417,10 +417,36 @@ html{
 the twelth part from the hero section  */
 
 #part12{
-    width: var(--space);
-    height: 100vh;
+    width: 67%;
+    height: 98vh;
     background-color: #d5b3ff;
+    position: relative;
+    top: 10.25%;
 }
+
+.part12S{
+    position: relative;
+    top: 28%;
+    right: 12%;
+}
+.part12L{
+    position: relative;
+    bottom: 29.5%;
+    left: 61.5%;
+}
+
+
+/* ============================================================= */
+/* the thirteenth part from the hero section */
+
+
+
+
+
+
+
+
+
 
 
 
