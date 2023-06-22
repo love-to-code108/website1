@@ -389,6 +389,14 @@ html{
 /* ================================================== */
 /* this is the tenth part of the hero section */
 
+#part10 {
+    /* width: var(--space); */
+    position: relative;
+    top: 7.4%;
+}
+
+/* ============================================== */
+/* this is the eleventh part from the hero section */
 
 
 
