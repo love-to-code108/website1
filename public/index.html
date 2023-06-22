@@ -172,9 +172,9 @@
             let lastScrollY = window.scrollY;
             
             window.addEventListener("scroll", () => {
-                if(lastScrollY < window.scrollY){
+                if(lastScrollY< window.scrollY){
                     nav.classList.add("nav--hidden");
-                    console.log(window.scrollY);
+                    console.log(lastScrollY);
                 }else{
                     nav.classList.remove("nav--hidden");
                 }
