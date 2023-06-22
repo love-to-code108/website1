@@ -315,7 +315,21 @@ html{
     cursor: pointer;
 }
 
+/* this marks the end of the video section of the website */
 /* ============================================================ */
+
+/* the sixth part from the hero section */
+
+#part6{
+    width: 50%;
+    position: relative;
+    top: 7.4rem;
+    left: 0.4rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+/* ======================================================== */
+/* this is the seventh part from the hero section */
 
 
 
