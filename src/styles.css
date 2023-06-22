@@ -450,8 +450,33 @@ the twelth part from the hero section  */
 /* the fourteenth part from the hero section */
 
 
+#part14{
+    width: var(--space);
+    height: 7.05%;
+    background-color: #b1c5ff;
+    position: relative;
+    top: 13.25%;
+    display: flex;
+    align-items: center;
+}
 
 
+/* font-size: 1.6rem;
+line-height: 2.2rem;
+font-weight :500 */
+
+.part14_2{
+    width: 30%;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight :600; 
+    position: relative;
+    left: 10%;
+}
+.part14Link{
+    text-decoration: none;
+    color: #0000ff;
+}
 
 
 
