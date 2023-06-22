@@ -230,27 +230,16 @@ html{
     width: 58%;
     background-color: #fbffa7;
 }
-#smallPic{
-    position: absolute;
-    width: 35%;
-    height: 34%;
-    background-image: url(../assets/img/2nd\(1\).jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    right: 5rem;
-    
-}
-#bigPic{
-    position: absolute;
-    width: 45%;
-    height: 70%;
-    background-image: url(../assets/img/3rd2.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    left: 5rem;
 
+.smallPic{
+    position: relative;
+    left: 51%;
 }
 
+.bigPic{
+    position: absolute;
+    left: 8.2%;
+}
 
 /* ================================================================ */
 /* the fourth part from the hero section */
@@ -469,7 +458,7 @@ font-weight :500 */
     width: 30%;
     font-size: 1.6rem;
     line-height: 2.2rem;
-    font-weight :600; 
+    font-weight :500; 
     position: relative;
     left: 10%;
 }
@@ -477,6 +466,9 @@ font-weight :500 */
     text-decoration: none;
     color: #0000ff;
 }
+
+/* ================================================================== */
+/* fifteenth part from the hero section */
 
 
 
