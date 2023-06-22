@@ -40,7 +40,7 @@ html{
 
 /* ============================================================== */
 /* ========== the navigation bar that is not sticky */
-#navbar{
+.navbar{
     height: 4rem;
     width: 100%;
     background-color: white;
@@ -122,7 +122,7 @@ html{
 
 /* ================================================================ */
 /* the navbar that is translucent and sticky */
-#navbar2{
+.navbar21{
     height: 3.5rem;
     width: 100%;
     /* background-color: red; */
@@ -132,6 +132,7 @@ html{
     top:0;
     background-color: rgba(255, 255, 255, 0.8);
     z-index: +2;
+    transition: transform 0.4s;
 }
 
 .nav2{
@@ -154,6 +155,11 @@ html{
     color: orangered;
 }
 
+/* hiding the navbar part */
+.nav--hidden{
+    transform: translateY(-3.5rem);
+    box-shadow: none;
+}
 
 /* ============================================================= */
 /* the hero section */
@@ -262,6 +268,7 @@ html{
     font-size: 1.6rem;
     line-height: 2.2rem;
     margin-bottom: 1.5rem;
+    font-weight: 500;
     
 }
 .part42{
@@ -277,12 +284,11 @@ html{
 #part5{
     width: 50%;
     height: 25rem;
+    position: relative;
 }
 
 
-#YTvideo{
-    
-}
+
 #btn{
     position: relative;
     top: 40rem;
@@ -317,7 +323,139 @@ html{
     cursor: pointer;
 }
 
+/* this marks the end of the video section of the website */
 /* ============================================================ */
+
+/* the sixth part from the hero section */
+
+#part6{
+    width: 50%;
+    position: relative;
+    top: 7.4rem;
+    left: 0.4rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+
+/* ======================================================== */
+/* this is the seventh part from the hero section */
+
+#part7{
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    width: 50%;
+    position: relative;
+    top: 15rem;
+    
+}
+
+
+/* ========================================================= */
+/* this is the eighth part from the hero section */
+
+#part8{
+    width: 100%;
+    height: 130vh;
+    position: relative;
+    top: 22.4rem;
+}
+
+.greenBox{
+    width: 58%;
+    height: 100%;
+    background-color: #b6ffc0;
+}
+
+.smallImage1{
+    position: relative;
+    bottom: 88.5%;
+    right: 26%;
+}
+.smallImage2{
+    position: relative;
+    bottom: 45.5%;
+    right: -8.2%;
+}
+.largeImage{
+    position: relative;
+    bottom: 111.5%;
+    right: -50.5%;
+}
+
+/* ================================================ */
+/* this is the ninth part from the hero section */
+
+#part9{
+    width: 50%;
+    position: relative;
+    top: 5.8%;
+}
+
+/* ================================================== */
+/* this is the tenth part of the hero section */
+
+#part10 {
+    /* width: var(--space); */
+    position: relative;
+    top: 7.4%;
+}
+
+/* ============================================== */
+/* this is the eleventh part from the hero section */
+
+#part11{
+    width: 50%;
+    position: relative;
+    top: 8.8%;
+}
+
+
+/* 
+====================================================
+the twelth part from the hero section  */
+
+#part12{
+    width: 67%;
+    height: 98vh;
+    background-color: #d5b3ff;
+    position: relative;
+    top: 10.25%;
+}
+
+.part12S{
+    position: relative;
+    top: 28%;
+    right: 12%;
+}
+.part12L{
+    position: relative;
+    bottom: 29.5%;
+    left: 61.5%;
+}
+
+
+/* ============================================================= */
+/* the thirteenth part from the hero section */
+
+
+#part13{
+    width: 50%;
+    position: relative;
+    top: 11.8%;
+}
+
+/* ============================================================== */
+/* the fourteenth part from the hero section */
+
+
+
+
+
+
+
+
 
 
 

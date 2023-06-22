@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="../src/styles.css">
 
 
+    <!-- ==================================================== -->
+    <!-- the favicon i am trying to add goes here -->
+    <link rel="shortcut icon" href="../assets/img/LOGO1.png" type="image/x-icon">
+
 
 
 
@@ -24,14 +28,14 @@
         <img style="object-fit: contain; width: 100%; height: 100%;" src="../assets/at-infinity-pi4a3mucMEA-unsplash.jpg" alt="AUM NAMAH SHIVAY IMAGE"> 
     </div> -->
 
-
+    <!--=========================================================  -->
     <!-- the first div -->
     <div id="WhiteBox">
 
 
-
+        <!-- ==================================================== -->
         <!-- the navigation bar that is not sticky -->
-        <div id="navbar">
+        <div class="navbar">
             <ul class="navbar1">
                 <li class="navbarElements first"><img class="imgContain" src="../assets/img/LOGO.png" alt=""></li>
                 <li class="navbarElement"><a href="" class="linking">Live</a></li>
@@ -52,7 +56,9 @@
                 <li class="element2">Log in to register</li>
             </ul>
         </div>
-        <div id="navbar2">
+        <!-- ============================================ -->
+        <!-- the navbar that is sticky -->
+        <div class="navbar21">
             <ul class="nav2">
                 <li class="nav2Elements ora">About</li>
                 <li class="nav2Elements">Jobs</li>
@@ -100,9 +106,91 @@
                 <img id="hidden" class="vidEdit2" onclick="hide()" src="../assets/img/abletonVideo.png" alt="">
             </div>
             <img id="hiddenBtn" class="playBtn" onclick="hide()" src="../assets/img/playButton.png" alt="">
-            <div></div>
+
+
+            <!-- ================================================== -->
+            <!-- this marks the end of the video section of the website  -->
+
+            <!-- ================================================== -->
+            <!-- the sixth part from the hero section  -->
+            <div id="part6">
+                <p>Why Ableton - Juanpe Bolivar</p>
+            </div>
+
+
+            <!-- ================================================== -->
+            <!-- the seventh part from the hero section -->
+            <div id="part7">
+                <p class="part41">We are more than 350 people from 30 different countries divided between our headquarters in Berlin and our offices in Los Angeles and Tokyo.</p>
+                <p class="part42">Most of us are active musicians, producers, and DJs, and many of us use Live and Push every day. We come from a wide range of cultural and professional backgrounds. Some of us have PhDs, some are self-taught, and most of us are somewhere in between. What connects us is the shared belief that each of us has the skills and knowledge to contribute to something big: helping to shape the future of music culture.</p>
+            </div>
+
+            <!-- =================================================== -->
+            <!-- the eightth part from the hero section -->
+
+            <div id="part8">
+                <div class="greenBox"></div>
+                <img class="smallImage2" src="../assets/img/smallPic1 (1).jpg" alt="IMAGE">
+                <img class="smallImage1" src="../assets/img/smallPic2 (1).jpg" alt="IMAGE">
+                <img class="largeImage" src="../assets/img/largePic (1).jpg" alt="IMAGE">
+            </div>
+
+            <!-- =================================================== -->
+            <!-- the ninth part from the hero section  -->
+            <div id="part9">
+                <p class="part41">We believe it takes focus to create truly outstanding instruments. We only work on a few products and we strive to make them great.</p>
+                <p class="part42">Rather than having a one-size-fits-all process, we try to give our people what they need to work their magic and grow. We’ve learned that achieving the best results comes from building teams that are richly diverse, and thus able to explore problems from a wider set of perspectives. We don’t always agree with each other, but opinion and debate are valued and openly encouraged.</p>
+            </div>
+
+            <!-- ==================================================== -->
+            <!-- the tenth part from the hero section -->
+            <div id="part10">
+                <img class="part10Img" src="../assets/img/3rd1.jpg" alt="">
+            </div>
+
+
+            <!--===================================================== -->
+            <!-- the eleventh part from the hero section -->
+            <div id="part11">
+                <p class="part41">We’re passionate about what we do, but we’re equally passionate about improving who we are.</p>
+                <p class="part42">We work hard to foster an environment where people can grow both personally and professionally, and we strive to create a wealth of opportunities to learn from and with each other.</p><br>
+                <p class="part42">Alongside an internal training program, employees are actively supported in acquiring new knowledge and skills, and coached on applying these in their daily work. In addition, staff-organized development and music salons are a chance to discuss new technologies, production techniques and best practices.</p>
+            </div>
+
+            <!-- ==================================================== -->
+            <!-- the twelth part from the hero section -->
+            <div id="part12">
+                <img class="part12S" src="../assets/img/part12S (1).jpg" alt="">
+                <img class="part12L" src="../assets/img/part12L (1).jpg" alt="">
+            </div>
+
+            <!-- =================================================== -->
+            <!-- the thirteenth part from the hero section -->
+            <div id="part13">
+                <p class="part41">We want our employees to love it here. Since we’re looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible.
+                </p>
+                <p class="part42">If you're joining us in Berlin, we'll help with relocation and paperwork. We’ll even provide you with free German or English lessons. Plus, working in Germany means you can expect comprehensive health insurance for you and your family, as well as generous maternity and paternity leave. Office hours are flexible, but it’s not all work; we have several company and team outings throughout the year as well as a variety of fun, informal small-group activities.</p>
+            </div>
+
+
         </div>
     </div>
+    <script>
+        {   
+            const nav = document.querySelector(".navbar21");
+            let lastScrollY = window.scrollY;
+            
+            window.addEventListener("scroll", () => {
+                if(lastScrollY< window.scrollY){
+                    nav.classList.add("nav--hidden");
+                    console.log(lastScrollY);
+                }else{
+                    nav.classList.remove("nav--hidden");
+                }
+                lastScrollY = window.scrollY;
+            });
+        }
+    </script>
     <script src="../src/index.js"></script>
 </body>
 
