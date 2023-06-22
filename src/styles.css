@@ -40,7 +40,7 @@ html{
 
 /* ============================================================== */
 /* ========== the navigation bar that is not sticky */
-#navbar{
+.navbar{
     height: 4rem;
     width: 100%;
     background-color: white;
@@ -122,7 +122,7 @@ html{
 
 /* ================================================================ */
 /* the navbar that is translucent and sticky */
-#navbar2{
+.navbar21{
     height: 3.5rem;
     width: 100%;
     /* background-color: red; */
@@ -132,6 +132,7 @@ html{
     top:0;
     background-color: rgba(255, 255, 255, 0.8);
     z-index: +2;
+    transition: transform 0.4s;
 }
 
 .nav2{
@@ -154,6 +155,11 @@ html{
     color: orangered;
 }
 
+/* hiding the navbar part */
+.nav--hidden{
+    transform: translateY(-3.5rem);
+    box-shadow: none;
+}
 
 /* ============================================================= */
 /* the hero section */
@@ -409,6 +415,11 @@ html{
 ====================================================
 the twelth part from the hero section  */
 
+#part12{
+    width: var(--space);
+    height: 100vh;
+    background-color: #d5b3ff;
+}
 
 
 

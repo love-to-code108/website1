@@ -35,7 +35,7 @@
 
         <!-- ==================================================== -->
         <!-- the navigation bar that is not sticky -->
-        <div id="navbar">
+        <div class="navbar">
             <ul class="navbar1">
                 <li class="navbarElements first"><img class="imgContain" src="../assets/img/LOGO.png" alt=""></li>
                 <li class="navbarElement"><a href="" class="linking">Live</a></li>
@@ -56,7 +56,9 @@
                 <li class="element2">Log in to register</li>
             </ul>
         </div>
-        <div id="navbar2">
+        <!-- ============================================ -->
+        <!-- the navbar that is sticky -->
+        <div class="navbar21">
             <ul class="nav2">
                 <li class="nav2Elements ora">About</li>
                 <li class="nav2Elements">Jobs</li>
@@ -157,10 +159,29 @@
 
             <!-- ==================================================== -->
             <!-- the twelth part from the hero section -->
-            
+            <div id="part12">
+
+            </div>
+
 
         </div>
     </div>
+    <script>
+        {   
+            const nav = document.querySelector(".navbar21");
+            let lastScrollY = window.scrollY;
+            
+            window.addEventListener("scroll", () => {
+                if(lastScrollY < window.scrollY){
+                    nav.classList.add("nav--hidden");
+                    console.log(window.scrollY);
+                }else{
+                    nav.classList.remove("nav--hidden");
+                }
+                lastScrollY = window.scrollY;
+            });
+        }
+    </script>
     <script src="../src/index.js"></script>
 </body>
 
