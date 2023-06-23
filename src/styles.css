@@ -22,7 +22,7 @@ html{
 /* =============         all the root things above */
 .greyBackGround{
     background-color: #f3f3f3;
-    width: 100%;
+    width: auto;
     height: 1000vh;
 }
 .flex{
@@ -501,3 +501,8 @@ font-weight :500 */
 
 /* ================================================================================ */
 /* adding media query */
+@media all and (max-width : 1800px) {
+    .greyBackGround{
+        background-color: red;
+    }
+}
