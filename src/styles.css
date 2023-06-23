@@ -28,7 +28,7 @@ html{
 .flex{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
 }
 /* ============           the first div */
 #WhiteBox{
@@ -494,3 +494,10 @@ font-weight :500 */
     color: white;
     background-color: #0000ff;
 }
+
+
+
+
+
+/* ================================================================================ */
+/* adding media query */
